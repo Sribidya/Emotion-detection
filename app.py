@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # Load the pre-trained model 
-model = load_model('models/emotion_recognition_model_2.h5')
+model = load_model('models/my_model_2.keras')
 
 # Define class names 
 class_names = ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"]
